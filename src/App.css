@@ -1,0 +1,78 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to bottom right, #096e6b, #00a49e);
+}
+@media only screen and (max-width: 900px) {
+  body { font-size: 1.5rem; }
+}
+@media only screen and (max-width: 600px) {
+  body { font-size: 1.3rem; }
+}
+
+/* Font styles */
+
+.bold {
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+/* Container styles */
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+/* User card styles */
+
+.user-list {
+  list-style: none;
+}
+
+.user-card{
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+.user-card__row {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.user-card__row:last-child {  
+  margin: 0;
+}
+
+.user-card__column1 {
+  width: 24%;
+  min-width: 12rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+  .user-card__column1 { min-width: 10rem; }
+}
+
