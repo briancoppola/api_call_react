@@ -13,14 +13,10 @@ body {
   padding: 3rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
-  background-image: linear-gradient(to bottom right, #096e6b, #00a49e);
-}
-@media only screen and (max-width: 900px) {
-  body { font-size: 1.5rem; }
+  background-image: linear-gradient(to bottom right, #0a5f5c, #00a49e);
 }
 @media only screen and (max-width: 600px) {
-  body { font-size: 1.3rem; }
+  body { padding: 2rem; }
 }
 
 /* Font styles */
@@ -28,14 +24,41 @@ body {
 .bold {
   font-weight: 700;
 }
+.uppercase {
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: 2.8rem;
   line-height: 3.5rem;
-  text-align: center;
 }
+@media only screen and (max-width: 900px) {
+  h1 { font-size: 2.6rem; }
+}
+@media only screen and (max-width: 600px) {
+  h1 { font-size: 2.4rem; }
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 900px) {
+  h2 { font-size: 1.7rem; }
+}
+@media only screen and (max-width: 600px) {
+  h2 { font-size: 1.5rem; }
+}
+
 p {
   font-size: 1.6rem;
-  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  p { font-size: 1.5rem; }
+}
+@media only screen and (max-width: 600px) {
+  p { font-size: 1.3rem; }
 }
 
 /* Container styles */
@@ -43,6 +66,14 @@ p {
 .container {
   max-width: 80rem;
   margin: 0 auto;
+}
+
+/* Header styles */
+
+.header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
 }
 
 /* User card styles */
@@ -57,13 +88,19 @@ p {
   padding: 3rem;
   margin-bottom: 3rem;
 }
-
 .user-card__row {
   display: flex;
   margin-bottom: 1rem;
 }
 .user-card__row:last-child {  
   margin: 0;
+}
+
+.user-card__subsection {
+  margin: 4rem 0;
+}
+.user-card__subsection:last-child {  
+  margin-bottom: 0;
 }
 
 .user-card__column1 {
@@ -75,4 +112,3 @@ p {
 @media only screen and (max-width: 600px) {
   .user-card__column1 { min-width: 10rem; }
 }
-
