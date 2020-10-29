@@ -7,9 +7,20 @@ This is a list of personal user information, rendered on one web page in a serie
 * The second column in each card contains the data itself.
 * Since the user data tree is multi-level, the fields that have children are expanded and given their own subsection.
 
+![React API Data App - screenshot](/images/screenshot.png)
+
 ## Development
-1. Download all files to preferred directory
-2. `yarn dev` or `npm run dev` or `gulp` to start the dev server
+Download all files to new folder
+
+
+## Setup
+To run this project, download all files to a new folder and install it locally using npm:
+
+```
+$ cd ../[new folder]
+$ npm install
+$ npm start
+```
 
 ## For reference
 * API data source: https://jsonplaceholder.typicode.com/users
@@ -17,4 +28,4 @@ This is a list of personal user information, rendered on one web page in a serie
 ## To Do
 - Make user name more prominent and list at top of card
 - Make each data line and section distinct and easier to read through alternating background colors (white/light gray)
-- Give the cards in general a more thorough design assessment to make card data easier to digest
+- Give the cards in general some design love to beautify cards and make card data easier to digest
