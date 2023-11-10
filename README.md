@@ -1,4 +1,4 @@
-# react_api_call
+# api_call_react
 Simple React one-page app with an API call that populates the page with generic user data
 
 ## Page anatomy
